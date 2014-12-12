@@ -1,0 +1,316 @@
+/* LOGIN FORM CSS
+-------------------------------------------------------------------------- */
+
+body {
+	background-color: #fff;
+	background-image: url(../img/agsquare.png);
+	background-repeat: repeat;
+}
+
+body.static-image-request {
+    background: url(../landing-page/images/background/request-bg.jpg) center center fixed no-repeat;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+#wrapper {
+	padding-top:60px;
+}
+
+.tagline {
+	text-align: center;
+	color:#555;
+	font-size: 45px;
+	font-weight: 300;
+	font-family: Lato;
+	padding-bottom:10px;
+}
+
+.tagline-small {
+	text-align: center;
+	color:#555;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: Lato;
+	padding-bottom:10px;	
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading, .form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.account-wall {
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f9f9f9;
+    -webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    max-width: 402px;
+	margin: 0px auto;
+    margin-bottom:20px;
+}
+
+.login-title {
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    padding:15px 0px 30px 0px;
+}
+
+.login-title:hover {
+	opacity:.6;
+}
+
+.profile-img {
+
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.btn-maestro-signin {
+	margin-bottom: 15px;
+	margin-top: 20px;	
+	background: #71A30D;
+	border-color:#71A30D;
+}
+
+.btn-maestro-signin:hover {
+	background:#557F00;
+	border-color:#71A30D;
+}
+
+.need-help {
+    margin-top: 10px;
+}
+
+.password-reset {
+	margin-left: 50px;
+}
+
+.new-account {
+    display: block;
+    margin-top: 10px;
+}
+
+.form-signin .checkbox {
+	padding-left:20px;
+}
+
+.centered-pills ul.nav-pills {
+	vertical-align: middle;
+}
+
+.centered-pills { 
+	text-align:center; 
+}
+
+.centered-pills ul.nav-pills { 
+	display:inline-block; 
+}
+
+.centered-pills li { 
+	display:inline; 
+}
+
+.centered-pills a { 
+	float:left; 
+	}
+	
+* html .centered-pills ul.nav-pills { 
+	display:inline; 
+} /* IE6 */
+
+*+html .centered-pills ul.nav-pills { 
+	display:inline; 
+} /* IE7 */
+
+body {
+	margin:0;
+	padding:0;
+    background: #f9f9f9 url(../img/shapes-light.png) repeat 0 0;
+	-webkit-animation: 30s linear 0s normal none infinite animate;
+	-moz-animation: 30s linear 0s normal none infinite animate;
+	-ms-animation: 30s linear 0s normal none infinite animate;
+	-o-animation: 30s linear 0s normal none infinite animate;
+	animation: 30s linear 0s normal none infinite animate;
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 1000px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 1000px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 1000px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 1000px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 1000px 0;}
+}
+
+@-webkit-keyframes glowing {
+  0% { background-color: #71a30d; -webkit-box-shadow: 0 0 3px #71a30d; }
+  50% { background-color: #71a30d; -webkit-box-shadow: 0 0 10px #71a30d; }
+  100% { background-color: #71a30d; -webkit-box-shadow: 0 0 3px #71a30d; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #71a30d; -moz-box-shadow: 0 0 3px #71a30d; }
+  50% { background-color: #71a30d; -moz-box-shadow: 0 0 10px #71a30d; }
+  100% { background-color: #71a30d; -moz-box-shadow: 0 0 3px #71a30d; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #71a30d; box-shadow: 0 0 3px #71a30d; }
+  50% { background-color: #71a30d; box-shadow: 0 0 10px #71a30d; }
+  100% { background-color: #71a30d; box-shadow: 0 0 3px #71a30d; }
+}
+
+@keyframes glowing {
+  0% { background-color: #71a30d; box-shadow: 0 0 3px #71a30d; }
+  50% { background-color: #71a30d; box-shadow: 0 0 10px #71a30d; }
+  100% { background-color: #71a30d; box-shadow: 0 0 3px #71a30d; }
+}
+
+.pulse {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+.btn-round {
+	width:10px;
+	height:10px;
+	padding:0px;
+	margin-top:-8px;
+	border-radius: 10px;
+}
+
+@media(min-width:769px) {
+	#wrapper {
+		padding-top:35px;
+	}
+	.login-title {
+		padding: 15px 0px 15px 0px;
+	}
+}
+
+@media(max-width:667px) {
+	#wrapper {
+		padding-top:20px;
+	}
+	
+	.tagline {
+		display:none;
+	}
+	.login-title {
+	    padding:15px 0px 15px 0px;
+	}
+	.profile-img {
+		width:80px;
+	}
+	.account-wall {
+		padding-top:25px;
+		padding-bottom:0px;
+		margin-bottom:20px;
+		margin-top:10px;
+	}
+	.password-reset {
+		margin-left:50px;
+	}
+}
+
+@media(max-width:568px) {
+	.tagline, .tagline-small {
+		font-size:16px;
+	}	
+	.nav-pills {
+		font-size:12px;
+	}
+}
+
+@media(max-width:480px) {
+	#wrapper {
+		padding-top:5px;
+	}
+	.login-title img {
+		width:200px;
+	}
+	.tagline, .tagline-small {
+		display:none;
+	}	
+	.nav-pills {
+		font-size:12px;
+	}
+	.account-wall {
+		margin-bottom:60px;
+	}
+	.password-reset {
+		margin-left:15px;	
+	}
+	.footer {
+		padding:0px;
+	}
+}

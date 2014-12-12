@@ -472,9 +472,9 @@ table.dataTable thead .sorting:after {
 
 .btn-maestro {
 	background:transparent;
-	box-shadow: 0 0 0 3px #AFAF0E inset;
+	box-shadow: 0 0 0 3px #71A30D inset;
 	border-radius: 0px;
-	color:#AFAF0E;	
+	color:#71A30D;	
 	text-transform: uppercase;
 }
 
@@ -737,6 +737,20 @@ table.dataTable thead .sorting:after {
 	padding: 20px 0px 35px 0px;
 	color: #557F00;
 }
+
+
+.schedule-color {
+	
+}
+
+.carts-color {
+	
+}
+
+.account-color {
+	
+}
+
 
 @media(max-width:480px) {
 	.start-box i {
